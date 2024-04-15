@@ -8,42 +8,39 @@ user_body = {
     "address": "123 Elm Street, Hilltop"
 }
 
-kit_body1 = {"name": "a"}
+one_character = {"name": "a"}
 
-kit_body2 = {"name": "Abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabC"}
+maximum_characters = {"name": "Abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab"
+                              "cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+                              "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab"
+                              "cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+                              "abcdabcdabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdab"
+                              "cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+                              "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab"
+                              "cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+                              "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabC"}
 
-kit_body3 = {"name": ""}
 
-kit_body4 = {"name": "Abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-                     "abcdabcdabcdabcdabcdabcdabcD"}
+empty_string = {"name": ""}
 
-kit_body5 = {"name": '"№%@",'}
+higher_character_plus_one = {"name": "Abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab"
+                                     "cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+                                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab"
+                                     "cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+                                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab"
+                                     "cdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+                                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab"
+                                     "cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+                                     "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab"
+                                     "cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+                                     "abcdabcdabcD"}
 
-kit_body6 = {"name": " A Aaa "}
+special_characters = {"name": '"№%@",'}
 
-kit_body7 = {"name": "123"}
+characters_with_space = {"name": " A Aaa "}
 
-kit_body8 = {}
+characters_with_number = {"name": "123"}
 
-kit_body9 = {"name": 123}
+empty_characters = {}
+
+without_string_character = {"name": 123}
